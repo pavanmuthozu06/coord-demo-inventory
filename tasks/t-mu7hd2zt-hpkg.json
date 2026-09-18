@@ -32,6 +32,16 @@
       },
       "kind": "review",
       "message": "PR #1 submitted (feat/s1-1-altimetrik-ui-styling). Good description & files. Missing: explicit screenshot of the implementation. Alex: please add screenshot to PR before merge. Definition of done = screenshot + PR."
+    },
+    {
+      "seq": 2,
+      "ts": "2026-09-18T22:17:17.826Z",
+      "author": {
+        "as": "user",
+        "user": "pavan"
+      },
+      "kind": "milestone",
+      "message": "Screenshot added to PR #1. Definition of done met — PR ready to merge."
     }
   ]
 }
