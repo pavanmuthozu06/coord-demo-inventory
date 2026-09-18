@@ -1,0 +1,27 @@
+{
+  "id": "t-mu7hd2zt-hpkg",
+  "title": "[S1-1] Adopt Altimetrik UI styling",
+  "details": "* Put the Altimetrik brand tokens (colors, typography, radius, spacing) in public/styles/tokens.css.\n* Add the logo to the header (`.brand` in public/index.html).\n* Restyle the KPI cards, table, chart bars and badges using tokens only, and remove every `FIXME(S1-1)` hard-coded color.\n* Acceptance: no hex or `rgb()` colors outside `tokens.css`; WCAG AA contrast; the layout still works at 1280px.",
+  "needs": [
+    "sprint-1",
+    "ui",
+    "design-system"
+  ],
+  "status": "open",
+  "assignee": null,
+  "created_by": "pavan",
+  "created_at": "2026-09-18T21:38:27.305Z",
+  "source": "local",
+  "log": [
+    {
+      "seq": 0,
+      "ts": "2026-09-18T21:38:27.306Z",
+      "author": {
+        "as": "user",
+        "user": "pavan"
+      },
+      "kind": "note",
+      "message": "created task: [S1-1] Adopt Altimetrik UI styling"
+    }
+  ]
+}
