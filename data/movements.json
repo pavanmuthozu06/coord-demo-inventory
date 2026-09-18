@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-09-18",
+  "unit": "units",
+  "weeks": [
+    {
+      "weekStart": "2026-06-26",
+      "inbound": 223,
+      "outbound": 213
+    },
+    {
+      "weekStart": "2026-07-03",
+      "inbound": 275,
+      "outbound": 210
+    },
+    {
+      "weekStart": "2026-07-10",
+      "inbound": 177,
+      "outbound": 210
+    },
+    {
+      "weekStart": "2026-07-17",
+      "inbound": 316,
+      "outbound": 158
+    },
+    {
+      "weekStart": "2026-07-24",
+      "inbound": 179,
+      "outbound": 216
+    },
+    {
+      "weekStart": "2026-07-31",
+      "inbound": 296,
+      "outbound": 217
+    },
+    {
+      "weekStart": "2026-08-07",
+      "inbound": 178,
+      "outbound": 234
+    },
+    {
+      "weekStart": "2026-08-14",
+      "inbound": 324,
+      "outbound": 203
+    },
+    {
+      "weekStart": "2026-08-21",
+      "inbound": 285,
+      "outbound": 230
+    },
+    {
+      "weekStart": "2026-08-28",
+      "inbound": 269,
+      "outbound": 186
+    },
+    {
+      "weekStart": "2026-09-04",
+      "inbound": 287,
+      "outbound": 213
+    },
+    {
+      "weekStart": "2026-09-11",
+      "inbound": 349,
+      "outbound": 266
+    }
+  ]
+}

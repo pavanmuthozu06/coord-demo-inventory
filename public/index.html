@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inventory Dashboard — Altimetrik (demo)</title>
+  <link rel="stylesheet" href="/styles/tokens.css">
+  <link rel="stylesheet" href="/styles/dashboard.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <!-- TODO(S1-1): replace with the Altimetrik logo / wordmark -->
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-name">Inventory</span>
+    </div>
+    <div class="topbar-meta">Sample data · updated <time id="updated">…</time></div>
+  </header>
+
+  <main class="page">
+    <div id="error" class="error" role="alert" hidden></div>
+
+    <section aria-labelledby="kpi-heading">
+      <h2 id="kpi-heading" class="sr-only">Key metrics</h2>
+      <div id="kpis" class="kpis"></div>
+    </section>
+
+    <div class="grid">
+      <section class="card" aria-labelledby="cat-heading">
+        <h2 id="cat-heading">Stock by category</h2>
+        <div id="category-chart" class="bars"></div>
+      </section>
+
+      <section class="card stub" id="alerts-card" aria-labelledby="alerts-heading">
+        <h2 id="alerts-heading">Low-stock alerts</h2>
+        <p class="stub-note">Not built yet · Sprint 1 · <strong>S1-3</strong></p>
+        <p class="stub-hint"><code>GET /api/alerts</code> is a 501 stub.</p>
+      </section>
+
+      <section class="card stub wide" id="trend-card" aria-labelledby="trend-heading">
+        <h2 id="trend-heading">Stock movement · last 12 weeks</h2>
+        <p class="stub-note">Not built yet · Sprint 2 · <strong>S2-1</strong></p>
+        <p class="stub-hint"><code>data/movements.json</code> is ready; <code>GET /api/movements</code> is a 501 stub.</p>
+      </section>
+
+      <section class="card wide" aria-labelledby="table-heading">
+        <h2 id="table-heading">Inventory</h2>
+        <div id="table-wrap" class="table-wrap"></div>
+        <p id="table-note" class="table-note"></p>
+      </section>
+    </div>
+  </main>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

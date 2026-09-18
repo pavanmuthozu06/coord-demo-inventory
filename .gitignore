@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.log
+
+# coord-agent (machine-specific; tasks live on the `coord` branch, not here)
+coord.config.json
+coord/
+
+# runtime data written by the app (S2-2 reorder drafts)
+data/reorders.json

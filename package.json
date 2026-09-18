@@ -1,0 +1,30 @@
+{
+  "name": "coord-demo-inventory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Demo inventory dashboard (Node.js + Express) — a deliberately half-built sample project for the coord-agent multi-agent workflow. All data is fictional.",
+  "license": "MIT",
+  "author": {
+    "name": "Pavan Muthozu",
+    "email": "muthozupavan@gmail.com",
+    "url": "https://github.com/pavanmuthozu06"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pavanmuthozu06/coord-demo-inventory.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test",
+    "data": "node scripts/generate-data.mjs",
+    "sprints": "node scripts/render-sprints.mjs"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
